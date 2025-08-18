@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*head*/
+.title {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.mainTitle {
+  margin-bottom: 10px;
+  color: brown;
+}
+/*head*/
+
+/*Section add task*/
+.secAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.textTask {
+  border-radius: 8px;
+  outline: none;
+  background-color: rgba(236, 236, 236, 0.459);
+  padding-top: 15px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.textTask:focus {
+  border: 2px solid brown;
+}
+
+.btnAdd{
+   border-radius: 5px;
+   border-color: brown;
+    background-color:brown ;
+    padding: 12px;
+    color: white;
+    margin-left: 8px;
+    font-size: 15px;
+    width: 90px;
+}
+
+.btnAdd:hover{
+    transform: scale(1.1);
+}
+/*Section add task*/
+
+/*Section List*/
+.secList{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.list{
+   display: flex;
+  align-items: center;
+  justify-content:center;  
+  flex-direction: row; 
+  width: 1200px;
+
+  
+}
+
+.liItem{
+    margin-bottom: 20px; 
+       list-style: none;
+         display: flex;
+ 
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.checkinput{
+    margin-right: 15px; 
+ 
+}
+.removebtn{
+    
+      border-radius: 5px;
+   border-color: brown;
+    background-color:brown ;
+    padding: 3px;
+    color: white;
+ 
+    font-size: 12px;
+    width: 80px;
+margin-left: 50PX;
+
+}
+
+/*Section List*/
+
