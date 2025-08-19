@@ -4,13 +4,9 @@ Project 1: To-Do List App (Using DOM, Functions, and Objects)
 Technologies Covered:
 
 • DOM manipulation
-
 • Objects
-
 • Functions
-
 • Arrays
-
 • ES6 features (let, const, arrow functions)
 
 Description:
